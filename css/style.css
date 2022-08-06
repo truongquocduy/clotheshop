@@ -1,0 +1,49 @@
+*{
+    font-family: 'Oswald', sans-serif !important;
+}
+.menu{
+    list-style: none;
+    padding: 10px;
+
+}
+.menu li{
+    display: inline-block; /*cho thẻ li nằm cùng hàng vd menu*/
+    margin-right: 30px;
+    font-size: 20px
+
+
+}
+.sp{
+    margin: 10px;
+}
+.sp .hinhhover{
+    display: none;  /*hình khi hover đang ẩn*/
+}
+.sp:hover .hinhhover{
+    display: block;      /*khi hover hình hiện lên*/
+}
+.sp:hover .hinhhienthi{
+    display: none;    /*hình góc ẩn đi*/
+}
+.sp:hover .title{
+    color:#65D1E6;     /* khi hover chữ đổi thành xanh*/
+}
+.menu_productpage{
+    list-style: none;  /* làm mất chấm trước thẻ li*/
+}
+.menu_productpage li{
+    margin-bottom: 10px;
+    background-color: rgb(174, 158, 158);
+    padding: 10px;
+    color: white;
+    border-radius: 4px;   /*bo tròn*/
+    cursor: pointer;  /* khi hover hiện bàn tay*/
+}
+.menu_productpage li:hover{
+    background-color: white; /*hover bộ lọc nền trắng chữ đen*/
+    color: black;
+
+}
+.error{
+    display: none;  /*thẻ lỗi đang ẩn*/
+}
